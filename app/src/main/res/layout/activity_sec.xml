@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ensemble"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/sec" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/localBodyTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Body:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/localBodySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:id="@+id/divisionTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/divisionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:id="@+id/districtTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/districtSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:id="@+id/talukaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taluka:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/talukaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:id="@+id/villageNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Village Name:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/villageNameSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <TextView
+            android:id="@+id/wardTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ward:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/wardSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"/>
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search"/>
+
+    </LinearLayout>
+
+</ScrollView>
